@@ -6,6 +6,7 @@
       <class name="skill.testscript3"/>
       <class name="skill.testscript2"/>
       <class name="skill.testscript1"/>
+      <class name="skill.testscript4"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

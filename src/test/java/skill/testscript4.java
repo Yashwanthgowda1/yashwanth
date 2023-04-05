@@ -21,15 +21,15 @@ public class testscript4 extends Baseclass {
 		search.clickjavaselenium();
 		soft.assertTrue(search.getlogo2().isDisplayed());
 		
-		search.moseover(web);
-		Thread.sleep(1000);
+//		search.moseover(web);
+//		Thread.sleep(1000);
 		
 		
-		search.clickmouseover();
-		Thread.sleep(1000);
-		
-		search.clickmouseover();
-		Thread.sleep(1000);
+//		search.clickmouseover();
+//		Thread.sleep(1000);
+//		
+//		search.clickmouseover();
+//		Thread.sleep(1000);
 
 		
 //		search.clickplaybutton();

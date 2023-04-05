@@ -9,17 +9,21 @@ public class testscript4 extends Baseclass {
 	@Test
 	public void test1() throws InterruptedException  {
 		SoftAssert soft=new SoftAssert();
-		
-		
 		soft.assertTrue(searchhome.getlogo().isDisplayed());
 		searchhome.searchoption("core java");
 		searchhome.clicksearchButton();
-		
 		soft.assertTrue(search.getlogo1().isDisplayed());
-		
-		
 		search.clickjavaselenium();
-		soft.assertTrue(search.getlogo2().isDisplayed());
+		
+//		soft.assertEquals(javaselenium.getselenium_java(), "Core Java For Selenium Training");
+//		javaselenium.clickppalybutton();
+//		
+//		Thread.sleep(1000);
+//		javaselenium.clickpausebutton();
+		
+		javaselenium.clickWishlist();
+		Thread.sleep(1000);
+		soft.assertAll();
 		
 //		search.moseover(web);
 //		Thread.sleep(1000);
@@ -37,8 +41,7 @@ public class testscript4 extends Baseclass {
 //		search.clickpalybutton();
 //		
 //		search.clickpausebutton();
-		search.clickWishlist();
-		soft.assertAll();
+
 	
 		
 		

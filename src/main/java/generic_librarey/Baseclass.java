@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import popmpages.contactus;
+import popmpages.java_selenium;
 import popmpages.mainpage;
 import popmpages.searchoption;
 import popmpages.searchoptionmainpage;
@@ -33,8 +34,11 @@ public class Baseclass {
 	protected seleniumtriningpage selenium;
 	protected testpage testing;
 	protected contactus contact;
-	protected searchoption search;
+	
+	
 	protected searchoptionmainpage searchhome;
+	protected searchoption search;
+	protected java_selenium javaselenium;
 
 	@BeforeClass
 
@@ -62,6 +66,7 @@ public class Baseclass {
 		contact = new contactus(driver);
 		search = new searchoption(driver);
 		 searchhome=new searchoptionmainpage(driver);
+		 javaselenium=new java_selenium(driver);
 		Assert.assertTrue(home.getlogo().isDisplayed());
 
 	}

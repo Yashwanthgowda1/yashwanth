@@ -22,7 +22,7 @@ public class testscript4 extends Baseclass {
 //		javaselenium.clickpausebutton();
 		
 		javaselenium.clickWishlist();
-		Thread.sleep(1000);
+		
 		soft.assertAll();
 		
 //		search.moseover(web);

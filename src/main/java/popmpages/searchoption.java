@@ -32,9 +32,10 @@ public class searchoption {
 	public void clickjavaselenium() {
 		javaselenium.click();
 	}
+}
 	
 
 
 
 
-}
+

@@ -46,9 +46,10 @@ public class seleniumtriningpage {
 		public String getiteamaddtocartmessage() {
 			return iteamaddtocartmessage.getText();
 		}
-		
-		
-	
-	
-	
 }
+		
+		
+	
+	
+	
+

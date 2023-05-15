@@ -11,7 +11,7 @@ public class mainpage {
 	 */
 	@FindBy(xpath = "//img[@alt=\"SkillRary\"]")
 	private WebElement logo;
-	@FindBy(xpath = "//a[text()=\" GEARS \"]")
+	@FindBy(xpath = "//ul/descendant::a[text()=\" GEARS \"]")
 	private WebElement gearTab;
 	@FindBy(xpath = "//ul[@class=\"dropdown-menu gear_menu\"]/descendant::a[normalize-space(text())='SkillRary Demo APP']")
 	private WebElement skillrarydemoapp;
@@ -43,6 +43,7 @@ public class mainpage {
 	public void clickskillrarydemoapp() {
 		skillrarydemoapp.click();
 	}
+
 	
 	
 

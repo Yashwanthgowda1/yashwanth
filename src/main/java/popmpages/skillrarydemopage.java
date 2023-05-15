@@ -55,7 +55,8 @@ public class skillrarydemopage {
 	public void clickcontactus() {
 		contactus.click();
 	}
-	
-	
-	
 }
+	
+	
+	
+

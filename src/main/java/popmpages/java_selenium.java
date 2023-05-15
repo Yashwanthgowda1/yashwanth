@@ -35,9 +35,10 @@ public String getselenium_java() {
 public void clickWishlist() {
 	Wishlist.click();
 }
-
-
-
-
-
 }
+
+
+
+
+
+

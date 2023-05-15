@@ -46,7 +46,8 @@ public class searchoptionmainpage {
 	public void searchButton() {
 		searchButton.click();
 	}
+}
 
 	
 
-}
+

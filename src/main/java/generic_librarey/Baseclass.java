@@ -29,6 +29,8 @@ public class Baseclass {
 	protected JavaUtility junit;
 	protected PropertyFileUtility property;// link with property
 	protected WebDriver driver;
+	
+	
 	protected mainpage home;
 	protected skillrarydemopage demoapp;
 	protected seleniumtriningpage selenium;
@@ -41,7 +43,9 @@ public class Baseclass {
 	protected java_selenium javaselenium;
 
 	@BeforeClass
-
+/**
+ * launching the browser 
+ */
 	public void classconfigration() {
 		web = new WebDriverUtility();
 		excel = new ExcelFileUtility();// ;ink with execel

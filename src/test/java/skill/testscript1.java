@@ -22,7 +22,6 @@ web.handelAlertpops("ok", null);
 soft.assertEquals(selenium.getiteamaddtocartmessage(), "Item added to cart");
 soft.assertAll();
 	
-	
 }
 
 }

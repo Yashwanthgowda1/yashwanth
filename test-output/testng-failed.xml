@@ -30,6 +30,15 @@
           <include name="classconfigration"/>
         </methods>
       </class> <!-- skill.testscript3 -->
+      <class name="skill.testscript4">
+        <methods>
+          <include name="methodconfigration"/>
+          <include name="closethebrowser"/>
+          <include name="test1"/>
+          <include name="methodteardown"/>
+          <include name="classconfigration"/>
+        </methods>
+      </class> <!-- skill.testscript4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

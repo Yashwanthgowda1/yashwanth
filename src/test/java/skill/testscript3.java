@@ -26,7 +26,15 @@ public class testscript3 extends Baseclass{
 		demoapp.clickcontactus();
 		
 		soft.assertTrue(contact.getcontactUsicon().isDisplayed());
-Map<String, String>map	=excel.readdata("Sheet1");
+		
+		
+//Map<String, String>map	=excel.readdata("sheet1")
+Map<String, String> map = excel.readdata("Sheet1");
+
+
+
+
+
 		contact.senkeys(map.get("Full name"),map.get("Email"), map.get("Subject"), map.get("Message"));
 		soft.assertAll();
 		

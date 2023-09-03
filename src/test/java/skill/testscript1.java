@@ -16,7 +16,7 @@ public void test1() {
 	demoapp.mouseHoverTocourse(web);
 	demoapp.clickseleniumtraning();
 	soft.assertEquals(selenium.getpageheader(), "Selenium Training");
-	selenium.doubleclick(web);
+selenium.doubleclick(web);
 	selenium.clickAddTochart();
 web.handelAlertpops("ok", null);
 soft.assertEquals(selenium.getiteamaddtocartmessage(), "Item added to cart");

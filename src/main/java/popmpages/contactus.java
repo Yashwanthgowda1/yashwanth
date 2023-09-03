@@ -39,6 +39,7 @@ public void senkeys(String fullname, String email, String messages, String subje
 	Emailtextfiled.sendKeys(email);
 	message.sendKeys(messages);
 	subject.sendKeys(subject1);
+	
 	sendusmail.click();//automaticalyy click
 	
 	

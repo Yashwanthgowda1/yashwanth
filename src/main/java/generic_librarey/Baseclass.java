@@ -4,13 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
+
 
 import popmpages.contactus;
 import popmpages.java_selenium;
@@ -64,7 +61,9 @@ public class Baseclass {
 	@BeforeMethod // LOGGIN TO APLLICATION AND INTILIZATION OF POM CLASS
 	public void methodconfigration() {
 		excel.reintilization(IconstantPath.EXEL_PATH);
-		home = new mainpage(driver);// connection to before class and method
+		//home = new mainpage(driver);// connection to before class and method
+		
+		home=new mainpage(driver);
 		demoapp = new skillrarydemopage(driver);
 		selenium = new seleniumtriningpage(driver);
 		testing = new testpage(driver);

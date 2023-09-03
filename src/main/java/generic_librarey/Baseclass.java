@@ -38,7 +38,7 @@ public class Baseclass {
 	
 	protected searchoptionmainpage searchhome;
 	protected searchoption search;
-	protected java_selenium javaselenium;
+	protected java_selenium javaseleniuSelenium;
 
 	@BeforeClass
 /**

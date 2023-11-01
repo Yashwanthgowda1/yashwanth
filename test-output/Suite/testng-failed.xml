@@ -3,6 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="skill.testscript1">
+        <methods>
+          <include name="methodconfigration"/>
+          <include name="test1"/>
+          <include name="closethebrowser"/>
+          <include name="methodteardown"/>
+          <include name="classconfigration"/>
+        </methods>
+      </class> <!-- skill.testscript1 -->
       <class name="skill.testscript2">
         <methods>
           <include name="methodconfigration"/>

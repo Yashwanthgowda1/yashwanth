@@ -21,7 +21,7 @@ public class testscript4 extends Baseclass {
 //		Thread.sleep(1000);
 //		javaselenium.clickpausebutton();
 		
-		javaselenium.clickWishlist();
+		javaseleniuSelenium.clickWishlist();
 		
 		soft.assertAll();
 		

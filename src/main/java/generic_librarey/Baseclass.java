@@ -70,7 +70,7 @@ public class Baseclass {
 		contact = new contactus(driver);
 		search = new searchoption(driver);
 		 searchhome=new searchoptionmainpage(driver);
-		 javaselenium=new java_selenium(driver);
+		 javaseleniuSelenium=new java_selenium(driver);
 		Assert.assertTrue(home.getlogo().isDisplayed());
 
 	}

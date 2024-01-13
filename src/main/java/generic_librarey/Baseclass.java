@@ -58,7 +58,10 @@ public class Baseclass {
 		driver = web.openApplication(browser, url, a);
 	}
 
-	@BeforeMethod // LOGGIN TO APLLICATION AND INTILIZATION OF POM CLASS
+	
+	@BeforeMethod
+	
+	// LOGGIN TO APLLICATION AND INTILIZATION OF POM CLASS
 	public void methodconfigration() {
 		excel.reintilization(IconstantPath.EXEL_PATH);
 		//home = new mainpage(driver);// connection to before class and method

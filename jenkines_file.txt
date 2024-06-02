@@ -1,0 +1,43 @@
+pipeline {
+    agent any
+    options {
+        timeout(time: 1, unit: 'HOURS')
+    }
+    stages {
+        stage('Build'){
+            steps {
+                echo 'build process.....'
+		bat 'mvm groove'
+
+            }
+        }
+    
+   
+        stage('Test'){
+            steps {
+                echo 'test process.....'
+		bat 'mvm groove'
+
+            }
+        }
+	
+  
+        stage('compile'){
+            steps {
+                echo 'compile process.....'
+		bat 'mvm groove'
+
+            }
+        }
+
+
+        stage('realse'){
+            steps {
+                echo 'realse process.....'
+		bat 'mvm groove'
+
+            }
+        }
+
+}
+}
